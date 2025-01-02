@@ -558,8 +558,28 @@ video {
   position: relative;
 }
 
+.left-10 {
+  left: 2.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-5 {
@@ -568,14 +588,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .block {
@@ -588,6 +600,22 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -608,10 +636,6 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.text-ellipsis {
-  text-overflow: ellipsis;
 }
 
 .rounded {
@@ -638,14 +662,6 @@ video {
 
 .p-20 {
   padding: 5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-10 {
@@ -677,6 +693,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-\[200px\] {
   font-size: 200px;
 }
@@ -684,16 +705,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -705,22 +716,14 @@ video {
   color: rgb(239 163 89 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#\] {
-  color: #;
-}
-
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .all{
@@ -739,8 +742,20 @@ video {
     top: 4rem;
   }
 
+  .lg\:left-32 {
+    left: 8rem;
+  }
+
+  .lg\:top-5 {
+    top: 1.25rem;
+  }
+
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:block {
@@ -749,5 +764,33 @@ video {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .lg\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .lg\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .lg\:w-\[650px\] {
+    width: 650px;
+  }
+
+  .lg\:p-20 {
+    padding: 5rem;
+  }
+
+  .lg\:text-start {
+    text-align: start;
   }
 }
