@@ -797,16 +797,12 @@ video {
     left: 8rem;
   }
 
-  .lg\:top-16 {
-    top: 4rem;
-  }
-
-  .lg\:top-20 {
-    top: 5rem;
-  }
-
   .lg\:top-10 {
     top: 2.5rem;
+  }
+
+  .lg\:top-16 {
+    top: 4rem;
   }
 
   .lg\:ml-32 {
