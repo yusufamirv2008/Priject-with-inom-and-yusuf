@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.all{
+    background-image: url(./yusuf.img/Rectangle\ 37\ \(1\).png);
+    width: 100%;
+    height: 750px;
+}
+.all1{
+    background-image: url(./yusuf.img/Rectangle\ 38.png);
+    width: 100%;
+}
